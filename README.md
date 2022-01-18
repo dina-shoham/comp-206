@@ -1,2 +1,2 @@
-# comp-206
-Coursework for COMP 206 - W2021
+# COMP 206: Intro to Software Systems (W2020)
+

@@ -7,3 +7,5 @@ Assignment 3: Script to check values of environment variables (`finder.sh`) and 
 Assignment 4: Simple C integer calculator (`simplecalc.c`) and a C program to implement Caesar's Cipher (`caesarcipher.c`)
 
 Assignment 5: C banking app (`bankapp.c`)
+
+Assignment 6: C app that takes as input a text file with data to construct a polynomial and evaluates it

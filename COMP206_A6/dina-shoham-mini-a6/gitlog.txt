@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 727254c7ce40bf07163901e06b5bc868dab5fd2a Dina Shoham <dina.shoham@gmail.com> 1586670496 -0600	commit (initial): initial code for polyapp.c
+727254c7ce40bf07163901e06b5bc868dab5fd2a 6c450233473ecd68ab4e902a09c0104c20f48178 Dina Shoham <dina.shoham@gmail.com> 1586671341 -0600	commit: more changes to polyapp.c
+6c450233473ecd68ab4e902a09c0104c20f48178 1e85ea8363bee63183337564831ab67ddd543e69 Dina Shoham <dina.shoham@gmail.com> 1586673908 -0600	commit: parse function in utils.c, minor changes to polyapp.c
+1e85ea8363bee63183337564831ab67ddd543e69 1450603a4e59f7de89bfd42d1d9685035d2a7b44 Dina Shoham <dina.shoham@gmail.com> 1586676935 -0600	commit: added pow function to utils.c, minor changes to polyapp.c
+1450603a4e59f7de89bfd42d1d9685035d2a7b44 b142cad04daf2ec95a93d13fcbb8670e84a883a9 Dina Shoham <dina.shoham@gmail.com> 1586819311 -0600	commit: addnode and displayPolynomial functions completed in poly.c
+b142cad04daf2ec95a93d13fcbb8670e84a883a9 9c48a9428af62a716a1e2127fc3cb8147a6cdbdd Dina Shoham <dina.shoham@gmail.com> 1586821981 -0600	commit: finished assignment! :)

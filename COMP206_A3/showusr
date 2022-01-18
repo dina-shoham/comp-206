@@ -1,0 +1,23 @@
+#Do not include a sh-bang (#!/bin/bash) in this script.
+#Do not write code outside of this function body
+function fname()
+{
+
+userid=$1 #sets userid to first arg 
+results=`pinky $userid | sed -n 2p | awk '{print $2}'` #gets line 2 of results of pinky $userid
+
+#if no argument passed, set FNAME to ERROR and return 1
+if [[ ! -n $userid ]] ; then #if the string length of userid=0 
+	FNAME="ERROR"
+	return 1 
+#if arg passed cannot be found 
+elif [[ ! `pinky $userid | awk '{print $7}'` ]] ; then #if the string length of results=0 
+	FNAME="NOTFOUND"
+	return 0
+#if arg found
+else 
+	FNAME=$results # | awk '{print $2}'` #prints second word of results (user's first name)
+	return 0
+fi
+
+}
